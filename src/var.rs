@@ -16,4 +16,7 @@ pub fn run() {
     const ID: i32 = 001;
     println!("ID: {id}", id=ID);
 
+    // assigning multiple variables
+    let (my_name, my_age) = ("Pragya", 23);
+    println!("My name is {} and my age is {}", my_name, my_age);
 }
